@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container h1 {
+  position: relative;
+}
+.erroricon {
+  color: rgb(219, 12, 12);
+  font-size: 40px;
+  position: absolute;
+  right: 64px;
+}
+.containerdf a p {
+  color: blue;
+}

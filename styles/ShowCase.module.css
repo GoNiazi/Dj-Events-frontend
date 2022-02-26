@@ -1,0 +1,29 @@
+.container {
+  background-image: url("/images/showcase.jpg");
+  margin-top: 0px;
+  height: 300px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.container h1 {
+  display: inline;
+  font-size: 40px;
+}
+.container * {
+  z-index: 20;
+}
