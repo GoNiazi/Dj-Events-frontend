@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px -3px 8px 0px;
+  align-items: center;
+  position: sticky;
+}
+.logo {
+  color: red;
+  margin-left: 20px;
+}
+.logo:hover {
+  color: black;
+}
+
+.container nav {
+  display: flex;
+}
+.container nav ul {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.container nav ul :hover {
+  font-weight: 600;
+}
